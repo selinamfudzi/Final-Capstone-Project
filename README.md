@@ -1,6 +1,6 @@
 # Final-Capstone-Project
 
-Overview
+* Overview
 
 This repository documents a complete penetration testing engagement conducted as part of a final capstone Capture The Flag (CTF) exercise. The goal was to identify vulnerabilities, exploit them ethically, locate flag files, and propose remediation steps.
 

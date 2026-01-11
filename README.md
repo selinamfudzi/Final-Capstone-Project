@@ -16,13 +16,6 @@ Analyze network traffic for sensitive information
 
 Document findings and propose remediation strategies
 
-#  Scope
-
-Engagement Type: Black-box penetration testing (simulated environment)
-
-Target: Vulnerable systems provided for educational purposes
-
-Authorization: Explicitly permitted (CTF simulation)
 
 # Tools Used
 
@@ -61,12 +54,13 @@ Flag Discovery
   
 * Propose mitigation and remediation strategies
   
-  * Target networks:
+** Target networks:**
 
 10.5.5.0/24
+
 192.168.0.0/24
 
-** Challenges Completed **
+
 
 # Challenge 1: SQL Injection
 

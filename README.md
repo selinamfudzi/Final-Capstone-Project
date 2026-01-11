@@ -1,7 +1,4 @@
 # Final-Capstone-Project
-Penetration Testing &amp; Ethical Hacking
-Final Capstone Penetration Testing Report
-Capture The Flag (CTF) Exercise
 
 Overview
 

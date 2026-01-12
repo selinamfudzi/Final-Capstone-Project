@@ -23,7 +23,8 @@ Perform reconnaissance on the server to find directories where indexing was foun
 
  <img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/f9b4eddf-0368-4ec6-8b34-bb1da767e43a" />
 
-## Step 3: View the files contained in each directory to find the db_form.html file.Create a URL in the web browser to access the viewable subdirectories. 
+## Step 3: View the files contained in each directory to find the db_form.html file.
+Create a URL in the web browser to access the viewable subdirectories. 
 
 <img width="960" height="504" alt="SMB" src="https://github.com/user-attachments/assets/c8f9570a-4f8a-40aa-bf2c-75c6d995d654" />
 

@@ -44,6 +44,14 @@ a. **Open a web browser and navigate to the target website.**
 
 ![image (2)](https://github.com/user-attachments/assets/ada11465-c20c-4ffe-9b9f-5952bcb6880f)
 
+<img width="960" height="504" alt="Screenshot 2026-01-11 155014" src="https://github.com/user-attachments/assets/01b02e2d-42ad-4e03-a07d-9439b472b2ec" />
 
+
+**Check DVWA to see if a SQL Injection Vulnerability is present.**
+
+**Test for SQL injection vulnerability.**
+
+- Enter the payload: ' OR 1=1 #
+- Click "Submit."
   
 

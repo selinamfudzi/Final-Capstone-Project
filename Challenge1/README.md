@@ -155,12 +155,13 @@ Question
 What are five remediation methods for preventing SQL injection exploits
 
 Here are five key remediation methods for preventing SQL injection exploits:
-prepared statements
 
-implementing the principle of least privilege
+- prepared statements
 
-employing input validation
+- implementing the principle of least privilege
 
-utilizing stored procedures
+- employing input validation
 
-managing error messages securely
+- utilizing stored procedures
+
+- managing error messages securely

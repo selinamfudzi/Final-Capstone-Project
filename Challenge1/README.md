@@ -22,3 +22,14 @@ a. **Open a web browser and navigate to the target website.**
 - This grants access to the DVWA dashboard.
 
   <img width="960" height="504" alt="Screenshot 2026-01-11 153423" src="https://github.com/user-attachments/assets/44ec0513-db1e-41e1-b7f1-c2c83220237f" />
+
+### C. Set the DVWA security level to low and click Submit.
+
+- Navigate to the "DVWA Security" section in the left menu.
+- Select "Low" from the dropdown.
+- Click "Submit.
+- At low security, DVWA does not sanitize inputs, enabling SQL injection exploits.
+  
+"![image](https://github.com/user-attachments/assets/e58d04f2-64b3-4ccb-a354-77e2fadaad29)
+
+  

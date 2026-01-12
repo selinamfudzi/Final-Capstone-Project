@@ -154,3 +154,10 @@ This capstone exercise provided hands-on experience with real-world penetration 
 ⚠️# Disclaimer
 
 This project was conducted in a controlled, educational environment. All techniques demonstrated were used with authorization and strictly for learning purposes.
+
+Author
+
+Selinam Fudzi
+Ethical Hacking & Cybersecurity Student
+
+.

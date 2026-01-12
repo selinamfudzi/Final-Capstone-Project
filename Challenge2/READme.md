@@ -46,3 +46,11 @@ aWe-4975
 
 <img width="960" height="504" alt="smb 2" src="https://github.com/user-attachments/assets/76cb845a-796f-44b8-bfb6-7c185d4c645a" />
 
+## Step 4: Research and propose directory listing exploit remediation.
+
+# What are two remediation methods for preventing directory listing exploits?
+Here are two key remediation methods for preventing directory listing exploits, based on established web security practices.
+
+1. **Disable Directory Indexing in Web Server Configuration**: Modify the web server's settings to explicitly turn off directory listings. For example, in Apache, add `Options -Indexes` to the configuration file or .htaccess; in IIS, disable directory browsing via the IIS Manager or web.config. This ensures that accessing a directory without an index file returns a forbidden error instead of listing files.
+
+2. **Place Default Index Files in Directories**: Add an empty or redirecting index file (e.g., index.html, index.php) to every directory under the web root. This overrides the server's default behavior of listing contents when no index is present, forcing it to serve the file instead.

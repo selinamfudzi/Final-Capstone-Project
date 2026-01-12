@@ -157,7 +157,8 @@ This project was conducted in a controlled, educational environment. All techniq
 
 Author
 
-Selinam Fudzi
+Selinam Fudzi-Amesu
+
 Ethical Hacking & Cybersecurity Student
 
 .

@@ -100,7 +100,7 @@ a. **Open a web browser and navigate to the target website.**
 ![image (9)](https://github.com/user-attachments/assets/31bb98ee-af42-4985-a6af-e802a5098e2f)
 
 
-  ### Step 3: Crack Bob Smith’s account password.
+ ### Step 3: Crack Bob Smith’s account password.
 
 Use any password hash cracking tool desired to crack Bob Smith’s password.
 Question

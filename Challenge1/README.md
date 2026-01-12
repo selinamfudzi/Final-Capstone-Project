@@ -5,8 +5,7 @@ In this part, you must discover user account information on a server and crack t
 
 # Step 1:Preliminary setup
 
-a. Open a browser and go to the website at 10.5.5.12.
-**Open a web browser and navigate to the target website.**
+a. **Open a web browser and navigate to the target website.**
 
 - URL: [http://10.5.5.12](http://10.5.5.12/) (kindly load a the ethical kail environment).
 - This loads the DVWA login page.

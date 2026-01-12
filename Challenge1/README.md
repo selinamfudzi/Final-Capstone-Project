@@ -32,4 +32,18 @@ a. **Open a web browser and navigate to the target website.**
   
 "![image](https://github.com/user-attachments/assets/e58d04f2-64b3-4ccb-a354-77e2fadaad29)
 
+  ## Step 2: Retrieve the user credentials for Bob Smith’s account.
+
+**Locate the vulnerable input form.**
+
+- In the DVWA dashboard, click "SQL Injection" in the left menu.
+- This displays a simple form: "User ID:" with a text box and "Submit" button.
+- The backend likely constructs a query like: SELECT first_name, last_name FROM users WHERE user_id = '$input';
+
+ ![image (1)](https://github.com/user-attachments/assets/7c2ea096-8ddd-4399-b0b2-201e23b18b95)
+
+![image (2)](https://github.com/user-attachments/assets/ada11465-c20c-4ffe-9b9f-5952bcb6880f)
+
+
   
+
